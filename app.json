@@ -1,42 +1,40 @@
 {
-  "name": "Telegram Torrent Leecher",
-  "description": "A Telegram Torrent (and youtube-dl) Leecher based on Pyrogram. Powered by @torrentleechgdrivesupport!",
-  "keywords": [
-    "telegram"
-  ],
-  "repository": "https://github.com/Manssizz/LazyLeech",
-  "success_url": "https://github.com/Manssizz",
-  "website": "https://github.com/Manssizz",
-  "env": { 	
-    "BOT_TOKEN": {
-      "description": "Your bot thisoken, as a string.",
-      "value": ""
+    "env": {
+        "API_ID": {
+            "description": "https://my.telegram.org"
+        },
+        "API_HASH": {
+            "description": "https://my.telegram.org"
+        },
+        "BOT_TOKEN": {
+            "description": "https://t.me/BotFather"
+        },
+        "TESTMODE": {
+            "description": "Use Telegram's test servers",
+            "value": "0",
+            "required": false
+        },
+        "EVERYONE_CHATS": {
+            "description": "Chats for everyone, space seperated, IDs only"
+        },
+        "ADMIN_CHATS": {
+            "description": "Chats for admins, space seperated, IDs only"
+        },
+        "PROGRESS_UPDATE_DELAY": {
+            "description": "Delay for progress and other things",
+            "value": "10",
+            "required": false
+        },
+        "MAGNET_TIMEOUT": {
+            "description": "Timeout for magnets",
+            "value": "60",
+            "required": false
+        },
+        "LEECH_TIMEOUT": {
+            "description": "Timeout for leeches",
+            "value": "300",
+            "required": false
+        }
     },
-    "API_ID": {
-      "description": "Get this value from https://my.telegram.org",
-      "value": ""
-    },
-    "API_HASH": {
-      "description": "Get this value from https://my.telegram.org",
-      "value": ""
-    },
-    "EVERYONE_CHATS": {
-      "description": "List group or personal for accessing this bot (separate with space)",
-      "value": ""
-    },
-    "ADMIN_CHATS": {
-      "description": "Owner ID",
-      "value": ""
-    },
-    "ADMIN_CHATS": {
-      "description": "Owner ID",
-      "value": ""
-    },      
-    "TESTMODE": {
-      "description": "Testing mode (0 or 1)",
-      "value": "",
-      "required": false      
-    }
-  },
-  "stack": "container"
+    "stack": "container"
 }
