@@ -4,8 +4,38 @@
   "keywords": [
     "telegram"
   ],
-  "repository": "https://github.com/yasirarism",
-  "success_url": "https://t.me/ymoviez",
-  "website": "https://www.yasir.my.id",
+  "repository": "https://github.com/Manssizz/LazyLeech",
+  // "success_url": "https://t.me/ymoviez",
+  // "website": "https://www.yasir.my.id",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "EVERYONE_CHATS": {
+      "description": "List group or personal for accessing this bot (separate with space)",
+      "value": ""
+    },
+    "ADMIN_CHATS": {
+      "description": "Owner ID",
+      "value": ""
+    },
+    "ADMIN_CHATS": {
+      "description": "Owner ID",
+      "value": ""
+    },      
+    "TESTMODE": {
+      "description": "Testing mode (0 or 1)",
+      "value": "",
+      "required": false      
+    },      
   "stack": "container"
 }
