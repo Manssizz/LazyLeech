@@ -5,9 +5,9 @@
     "telegram"
   ],
   "repository": "https://github.com/Manssizz/LazyLeech",
-  // "success_url": "https://t.me/ymoviez",
-  // "website": "https://www.yasir.my.id",
-  "env": {
+  "success_url": "https://github.com/Manssizz",
+  "website": "https://github.com/Manssizz",
+  "env": { 	
     "BOT_TOKEN": {
       "description": "Your bot token, as a string.",
       "value": ""
@@ -36,6 +36,11 @@
       "description": "Testing mode (0 or 1)",
       "value": "",
       "required": false      
-    },      
+    },
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    }      
+  },
   "stack": "container"
 }
