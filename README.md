@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://telegra.ph/file/1e1f6119d27511337af27.jpg">
-</p>
-
 # LazyLeech 
 
 <p align="center">
@@ -20,8 +16,6 @@
 # What is this repo about?
 This is a telegram bot writen with pyrogram for leeching files on the internet to Telegram.
 
-[Bot Demo](https://t.me/joinchat/HC7YmklXMSRPH3N2)
-
 # Features
 - Leeching direct download links | Torrent | Magnets.
 - Thumbnail and Watermark Support.
@@ -30,6 +24,9 @@ This is a telegram bot writen with pyrogram for leeching files on the internet t
 - Upload as zip, streamable, document.
 - Can List All your Ongoing Leeches.
 - Docker support.
+
+# Deploy
+<p><a href="https://heroku.com/deploy?template=https://github.com/Manssizz/LazyLeech"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
 ## Bot Commands
 
